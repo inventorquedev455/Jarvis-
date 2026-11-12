@@ -1,0 +1,8 @@
+#interpreter 3.13
+py -3.13 -m venv "$env:USERPROFILE\venvs\marklvi"  
+& "$env:USERPROFILE\venvs\marklvi\Scripts\python.exe" setup.py  #setup
+
+& "$env:USERPROFILE\venvs\marklvi\Scripts\python.exe" main.py #installation
+#given interpreter
+py setup.py  #setup
+py main.py  #install
